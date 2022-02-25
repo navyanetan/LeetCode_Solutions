@@ -8,9 +8,9 @@ class Solution(object):
         for i in digits:
             num_str += str(i)
         num_str = str(int(num_str) + 1)
-        l=[]
-        for x in num_str:
-            l += x
+        l=[int(x) for x in num_str]
+        # for x in num_str:
+        #     l += x
         return l
             
             
